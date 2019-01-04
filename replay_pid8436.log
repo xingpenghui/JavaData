@@ -1,0 +1,33 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 181 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 1262971 0 -1
+ciMethod java/lang/Object toString ()Ljava/lang/String; 0 0 12 0 -1
+ciMethod java/lang/String <init> ([CII)V 4097 1 5810 0 -1
+ciMethod java/lang/String lastIndexOf (I)I 2049 1 34037 0 -1
+ciMethod java/lang/String lastIndexOf (II)I 905 32769 944 0 -1
+ciMethod java/lang/String substring (II)Ljava/lang/String; 3241 1 5622 0 -1
+ciMethod java/lang/String toString ()Ljava/lang/String; 873 1 12630 0 -1
+ciMethod java/lang/String valueOf (Ljava/lang/Object;)Ljava/lang/String; 601 1 14462 0 -1
+ciMethod java/lang/Class forName (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class; 2057 1 1502 0 -1
+ciMethod java/lang/ClassLoader loadClass (Ljava/lang/String;)Ljava/lang/Class; 2049 1 1701 0 -1
+ciMethod java/lang/ClassLoader checkName (Ljava/lang/String;)Z 2081 1 5424 0 -1
+ciMethod java/lang/ClassLoader resolveClass (Ljava/lang/Class;)V 0 0 1 0 -1
+ciMethod java/lang/ClassLoader resolveClass0 (Ljava/lang/Class;)V 0 0 1 0 -1
+ciMethod java/lang/ClassLoader findLoadedClass (Ljava/lang/String;)Ljava/lang/Class; 2049 1 9460 0 -1
+ciMethod java/lang/ClassLoader findLoadedClass0 (Ljava/lang/String;)Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/lang/ClassNotFoundException <init> (Ljava/lang/String;)V 1889 1 6388 0 -1
+ciMethod java/lang/ClassNotFoundException <init> (Ljava/lang/String;Ljava/lang/Throwable;)V 0 0 1 0 -1
+ciMethod java/lang/AbstractStringBuilder <init> (I)V 1897 1 111453 0 -1
+ciMethod java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder; 3073 1 13441 0 -1
+ciMethod java/lang/AbstractStringBuilder append (Z)Ljava/lang/AbstractStringBuilder; 17 1 2 0 -1
+ciMethod java/lang/StringBuilder <init> ()V 1409 1 76010 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/Object;)Ljava/lang/StringBuilder; 513 1 1334 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 2873 1 200458 0 -1
+ciMethod java/lang/StringBuilder append (Z)Ljava/lang/StringBuilder; 17 1 2 0 -1
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 1545 1 97964 0 -1
+ciMethod java/util/HashMap get (Ljava/lang/Object;)Ljava/lang/Object; 2049 1 24098 0 -1
+ciMethodData java/lang/Object <init> ()V 2 1262971 orig 264 152 130 175 117 0 0 0 0 128 4 229 22 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 217 27 154 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/lang/String <init> ([CII)V 2 5810 orig 264 152 130 175 117 0 0 0 0 88 49 229 22 0 0 0 0 80 2 0 0 208 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 145 165 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 14 0 2 0 0 0 240 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 30 0x10002 0x14b2 0x50007 0x14b2 0x30 0x0 0xd0002 0x0 0x120007 0x1429 0x70 0x89 0x160007 0x89 0x30 0x0 0x1e0002 0x0 0x250007 0x0 0x20 0x89 0x370007 0x1429 0x30 0x0 0x410002 0x0 0x4b0002 0x1429 oops 0
+ciMethodData java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder; 2 13441 orig 264 152 130 175 117 0 0 0 0 104 83 236 22 0 0 0 0 240 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
